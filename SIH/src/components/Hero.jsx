@@ -7,23 +7,25 @@ function Hero() {
     <>
       <div className="w-full">
         <div className="flex justify-center items-center w-full md:px-[10px] lg:px-[60px]">
-          <div className="pt-10 ">
-            <div className="relative">
+          <div className="pt-10 relative ">
+            <div>
               <img src={front_page} width={960} className="rounded-3xl" />
             </div>
 
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-[38px] font-bold">
-              Experience India, One Ticket Away
-            </div>
+            <div className="w-full flex-row justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+              <div className="flex justify-center text-white font-bold text-[20px] md:text-[38px] ">
+                Experience India, One Ticket Away
+              </div>
 
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-20 -translate-y-1/2 text-white text-[18px] font-semibold text-center ">
-              Book your tickets for more than 500+ Museums, Monuments &
-              Archaeological Sites in India.
-            </div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 mt-40 -translate-y-1/2 ">
-                <button className="bg-white text-black px-5 py-3 rounded-full font-semibold">
-                    Buy your tickets
+              <div className=" flex justify-center text-white font-semibold text-center text-[10px] mt-[20px] md:text-[18px] ">
+                Book your tickets for more than 500+ Museums, Monuments &
+                Archaeological Sites in India.
+              </div>
+              <div className="w-full flex justify-center mt-[20px]">
+                <button className="bg-white text-black px-5 py-3 rounded-full font-semibold text-[10px] md:text-[20px] hover:bg-purple-100">
+                  Buy your tickets
                 </button>
+              </div>
             </div>
           </div>
         </div>
