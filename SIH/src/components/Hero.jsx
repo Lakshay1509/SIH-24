@@ -1,5 +1,5 @@
 import React from "react";
-import { front_page, front } from "../assets/index.js";
+import { front_page} from "../assets/index.js";
 import { AspectRatio } from "react-aspect-ratio";
 
 function Hero() {

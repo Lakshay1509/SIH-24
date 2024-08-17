@@ -1,8 +1,7 @@
 import user from "./user.svg"
 import cart from "./cart.svg"
 import Logo from "./Logo.png"
-import front_page from "./front_page.jpg"
-import front from "./front.jpg"
+import front_page from "./front_page.webp"
 import Taj from "./Taj.webp"
 import HT from "./HT.webp"
 import  Gateway  from "./Gateway.webp"
@@ -17,7 +16,6 @@ export {
     cart,
     Logo,
     front_page,
-    front,
     Taj,
     HT,
     Gateway,

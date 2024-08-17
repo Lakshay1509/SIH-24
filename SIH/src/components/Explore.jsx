@@ -19,7 +19,7 @@ function Explore() {
                 <button className="ease-in-out duration-300 hover:scale-105">
                   <img src={place.image} className="rounded-xl" alt={place.name} />
                 </button>
-                <div className="text-center md:font-bold mt-2 md:text-xl">{place.name}</div>
+                <div className="text-center md:font-bold mt-2  md:text-xl">{place.name}</div>
                 </div>
 
               ))}
