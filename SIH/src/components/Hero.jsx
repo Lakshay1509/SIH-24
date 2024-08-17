@@ -5,8 +5,8 @@ import { AspectRatio } from "react-aspect-ratio";
 function Hero() {
   return (
     <>
-      <div className="w-full">
-        <div className="flex justify-center items-center w-full md:px-[10px] lg:px-[60px]">
+      <div className="w-full mb-[40px]">
+        <div className="flex justify-center items-center w-full px-[5px] md:px-[10px] lg:px-[60px]">
           <div className="pt-10 relative ">
             <div>
               <img src={front_page} width={960} className="rounded-3xl" />
