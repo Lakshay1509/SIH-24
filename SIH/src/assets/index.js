@@ -9,6 +9,7 @@ import Fort from "./Fort.webp"
 import Kolkata_Museum from "./Kolkata_Museum.webp"
 import Art from "./Art.webp"
 import right_arrow from "./right_arrow.svg"
+import amber_fort from "./amber_fort.webp"
 
 
 export {
@@ -22,5 +23,6 @@ export {
     Fort,
     Kolkata_Museum,
     Art,
-    right_arrow
+    right_arrow,
+    amber_fort
 };
