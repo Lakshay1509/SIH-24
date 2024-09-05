@@ -6,7 +6,7 @@ function Discover() {
     <div className="w-full bg-black mt-[30px] px-[10px] py-[40px] lg:px-[0px]">
       <div className=" lg:flex lg:justify-between lg:px-[72px]">
         <div className="lg:mr-[12px]">
-          <h3 className="text-[16px] font-sans text-orange-400 mb-[12px]">
+          <h3 className="text-[20px] font-explore text-orange-400 mb-[12px]">
             EXPERIENCES
           </h3>
           <h2 className=" text-[30px] md:text-[40px] font-sans text-white mb-[24px]">
